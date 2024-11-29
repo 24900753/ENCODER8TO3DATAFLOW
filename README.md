@@ -34,6 +34,9 @@ Logical circuit of the above expressions is given below:
 
 Figure 02  Encoder 8 * 3
 
+![PROJECT 5555555555](https://github.com/user-attachments/assets/12f40197-b864-4a5e-ad4c-fc78bdd04242)
+
+
 **Procedure**
 
 /* write all the steps invloved */
@@ -42,12 +45,25 @@ Figure 02  Encoder 8 * 3
 
 /* Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:
+Developed by: VIGNESH V RegisterNumber:24900753
 */
+
+module decoder(d0,d1,d2,d3,d4,d5,d6,d7,a0,a1,a2);
+input d0,d1,d2,d3,d4,d5,d6,d7;
+output a0,a1,a2;
+assign a0=d1|d3|d5|d7;
+assign a1=d2|d3|d6|d7;
+assign a2=d4|d5|d6|d7;
+endmodule
 
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
 
+![PROJECT 4555555555555](https://github.com/user-attachments/assets/f7011a23-3dc3-42e4-b280-2ef4a406d14b)
+
+
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
+
+![PROJECT 5555555553](https://github.com/user-attachments/assets/22d5457f-0024-4832-a6ca-5400f3313959)
 
 **RESULTS**
 
